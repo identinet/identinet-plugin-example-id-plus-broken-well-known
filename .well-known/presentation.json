@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "type": [
+    "VerifiablePresentation"
+  ],
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "credentialSubject": {
+        "id": "did:web:broken-example.identinet.io",
+        "tempered": "attribute"
+      },
+      "issuer": "did:web:broken-example.identinet.io",
+      "issuanceDate": "2024-04-06T16:42:36Z",
+      "proof": {
+        "type": "Ed25519Signature2020",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z2vViQdLFs5tqghTt7LZxzXNu88E5HeoZqUtfTAyn86HrBELSqdKCeJ2XWJa8oB33KvuZc5S87RzGnucNRiQY3PJv",
+        "verificationMethod": "did:web:broken-example.identinet.io#z6MkogF8SfmeAPX9yzruS7wTn2VZrDWA9QUEaUQwaE3MtRLa",
+        "created": "2024-04-06T16:42:36.649003434Z"
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z635GNejMsxWGjLbhmGMoYJR8JUGc9CoPbT9mg7cWPEbhkedfecfWou4Svab27gbMBCGoisRztvu4xgtB38ukDwWB",
+    "verificationMethod": "did:web:broken-example.identinet.io#z6MkogF8SfmeAPX9yzruS7wTn2VZrDWA9QUEaUQwaE3MtRLa",
+    "created": "2024-04-06T16:42:36.936864228Z"
+  },
+  "holder": "did:web:broken-example.identinet.io"
+}
