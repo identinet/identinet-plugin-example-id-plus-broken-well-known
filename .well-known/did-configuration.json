@@ -1,0 +1,29 @@
+{
+  "@context": "https://identity.foundation/.well-known/did-configuration/v1",
+  "linked_dids": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://identity.foundation/.well-known/did-configuration/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential",
+        "DomainLinkageCredential"
+      ],
+      "credentialSubject": {
+        "id": "did:web:id-plus-broken-well-known-example.identinet.io",
+        "origin": "https://domain-doesnt-match-id-plus-broken-well-known-example.identinet.io"
+      },
+      "issuer": "did:web:id-plus-broken-well-known-example.identinet.io",
+      "issuanceDate": "2025-03-19T08:52:31Z",
+      "proof": {
+        "type": "Ed25519Signature2020",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z584ryx5HSnuc9gywWeS5j3VzLXK8Kmtw4kV5uqYWdzLMZKFuXFDYB2F1G3oU76DWH2aGcqXfoHoNkAedZZHfTyD7",
+        "verificationMethod": "did:web:id-plus-broken-well-known-example.identinet.io#UEltvkjO_JdzGv-2CTQSPB3F_dUfMb3BsYzPxdwQpaE",
+        "created": "2025-03-19T08:52:32.140576476Z"
+      }
+    }
+  ]
+}
